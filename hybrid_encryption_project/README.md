@@ -19,17 +19,19 @@ A simple hybrid encryption system that combines **RSA** asymmetric encryption wi
 ---
 
 ## Project Structure
-hybrid_encryption_project/
+```text
+hybrid_encryption_project/   
 ├─ keys/                        # Generated RSA keys (private.pem, public.pem)
 ├─ data/                        # Input/output files for demo
-├─ src/
-│  ├─ key_manager.py            # RSA key generation, load/save
-│  ├─ crypto_core.py            # Hybrid AES+RSA encrypt/decrypt
-│  └─ file_encryptor.py         # File helpers using the hybrid core
-├─ main.py                      # CLI: file & text encryption/decryption
-├─ README.md                    # Documentation
-└─ requirements.txt             # Dependencies
+├─ src/                         
+│  ├─ key_manager.py            # RSA key generation, load/save 
+│  ├─ crypto_core.py            # Hybrid AES+RSA encrypt/decrypt 
+│  └─ file_encryptor.py         # File helpers using the hybrid core 
+├─ main.py                      # CLI: file & text encryption/decryption 
+├─ README.md                    # Documentation 
+└─ requirements.txt             # Dependencies 
 
+```
 ---
 
 ## Setup
